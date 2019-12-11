@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "362776473476",
+    "firebase_url": "https://mocfoodapp1.firebaseio.com",
+    "project_id": "mocfoodapp1",
+    "storage_bucket": "mocfoodapp1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362776473476:android:4d41cec166979073",
+        "android_client_info": {
+          "package_name": "com.example.moc2go"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362776473476-cqp3pf36esk7pumvob1g4hge8anrcku5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moc2go",
+            "certificate_hash": "82def342e2721b4197744d4f63c0e12d3c3f01ca"
+          }
+        },
+        {
+          "client_id": "362776473476-199l417j3gb09uic9fm51h6abqh994g9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moc2go",
+            "certificate_hash": "7a2f676a7b4a32e6f0694dfad443e4e3d9be12bc"
+          }
+        },
+        {
+          "client_id": "362776473476-epcdre6gpiqa9nbb103ich9gaqubfhek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr6RbLky9G4wZ_RQgkCIpvwTx43zvn9hE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362776473476-epcdre6gpiqa9nbb103ich9gaqubfhek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/restaurants"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.restaurants.RestaurantsFragment">
+
+    <View
+        android:id="@+id/buckStop"
+        android:layout_width="370dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginBottom="14dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/underCaf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/the_buck_stop"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/buckStop"
+        app:layout_constraintStart_toEndOf="@+id/BuckStopImage"
+        app:layout_constraintTop_toTopOf="@+id/buckStop"
+        app:layout_constraintVertical_bias="0.17000002" />
+
+    <ImageView
+        android:id="@+id/BuckStopImage"
+        android:layout_width="120dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/buckstop"
+        app:layout_constraintBottom_toBottomOf="@+id/buckStop"
+        app:layout_constraintEnd_toStartOf="@+id/BuckStopMenu"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buckStop"
+        app:layout_constraintTop_toTopOf="@+id/buckStop" />
+
+    <Button
+        android:id="@+id/BuckStopMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorAccent"
+        android:text="@string/menu"
+        android:textColor="@color/ic_launcher_background"
+        app:layout_constraintBottom_toBottomOf="@+id/buckStop"
+        app:layout_constraintEnd_toEndOf="@+id/buckStop"
+        app:layout_constraintTop_toTopOf="@+id/buckStop"
+        app:layout_constraintVertical_bias="0.87" />
+
+        <View
+            android:id="@+id/underCaf"
+            android:layout_width="370dp"
+            android:layout_height="102dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="14dp"
+            android:background="@color/colorAccent"
+            app:layout_constraintBottom_toTopOf="@+id/Tutus"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buckStop" />
+
+        <ImageView
+            android:id="@+id/UnderCafImage"
+            android:layout_width="120dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/undercaf"
+            app:layout_constraintBottom_toBottomOf="@+id/underCaf"
+            app:layout_constraintStart_toStartOf="@+id/underCaf"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintTop_toTopOf="@+id/underCaf" />
+
+        <Button
+            android:id="@+id/UnderCafMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/colorAccent"
+            android:text="@string/menu"
+            android:textColor="@color/ic_launcher_background"
+            app:layout_constraintBottom_toBottomOf="@+id/underCaf"
+            app:layout_constraintEnd_toEndOf="@+id/underCaf"
+            app:layout_constraintTop_toTopOf="@+id/underCaf"
+            app:layout_constraintVertical_bias="0.87" />
+
+    <View
+        android:id="@+id/Tutus"
+        android:layout_width="370dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="14dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/grillMaster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/underCaf" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="@string/under_caf"
+            android:textColor="@color/ic_launcher_background"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/underCaf"
+            app:layout_constraintStart_toEndOf="@+id/UnderCafImage"
+            app:layout_constraintTop_toTopOf="@+id/underCaf"
+            app:layout_constraintVertical_bias="0.17000002" />
+
+        <View
+            android:id="@+id/grillMaster"
+            android:layout_width="370dp"
+            android:layout_height="102dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="14dp"
+            android:background="@color/colorAccent"
+            app:layout_constraintBottom_toTopOf="@+id/happyPlace"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Tutus" />
+
+    <View
+        android:id="@+id/happyPlace"
+        android:layout_width="370dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grillMaster" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="120dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/tutus"
+        app:layout_constraintBottom_toBottomOf="@+id/Tutus"
+        app:layout_constraintStart_toStartOf="@+id/Tutus"
+        app:layout_constraintTop_toTopOf="@+id/Tutus" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/tutus"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/Tutus"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/Tutus"
+        app:layout_constraintVertical_bias="0.17000002" />
+
+    <Button
+        android:id="@+id/tutusMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorAccent"
+        android:text="@string/menu"
+        android:textColor="@color/ic_launcher_background"
+        app:layout_constraintBottom_toBottomOf="@+id/Tutus"
+        app:layout_constraintEnd_toEndOf="@+id/Tutus"
+        app:layout_constraintTop_toTopOf="@+id/Tutus"
+        app:layout_constraintVertical_bias="0.87" />
+
+    <ImageView
+        android:id="@+id/grillMasterImage"
+        android:layout_width="120dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/grillmaster"
+        app:layout_constraintBottom_toBottomOf="@+id/grillMaster"
+        app:layout_constraintStart_toStartOf="@+id/grillMaster"
+        app:layout_constraintTop_toTopOf="@+id/grillMaster" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/grill_master"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/grillMaster"
+        app:layout_constraintStart_toEndOf="@+id/grillMasterImage"
+        app:layout_constraintTop_toTopOf="@+id/grillMaster"
+        app:layout_constraintVertical_bias="0.17000002" />
+
+    <Button
+        android:id="@+id/grillMasterMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorAccent"
+        android:text="@string/menu"
+        android:textColor="@color/ic_launcher_background"
+        app:layout_constraintBottom_toBottomOf="@+id/grillMaster"
+        app:layout_constraintEnd_toEndOf="@+id/grillMaster"
+        app:layout_constraintTop_toTopOf="@+id/grillMaster"
+        app:layout_constraintVertical_bias="0.87" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="120dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/happyplace"
+        app:layout_constraintBottom_toBottomOf="@+id/happyPlace"
+        app:layout_constraintStart_toStartOf="@+id/happyPlace"
+        app:layout_constraintTop_toTopOf="@+id/happyPlace" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/happy_place"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/happyPlace"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/happyPlace"
+        app:layout_constraintVertical_bias="0.17000002" />
+
+    <Button
+        android:id="@+id/happyPlaceMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorAccent"
+        android:text="@string/menu"
+        android:textColor="@color/ic_launcher_background"
+        app:layout_constraintBottom_toBottomOf="@+id/happyPlace"
+        app:layout_constraintEnd_toEndOf="@+id/happyPlace"
+        app:layout_constraintTop_toTopOf="@+id/happyPlace"
+        app:layout_constraintVertical_bias="0.87" />
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

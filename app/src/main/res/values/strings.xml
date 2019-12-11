@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Moc2Go</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Moc2Go</string>
+    <string name="nav_header_subtitle">Order on your time</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_import">Import</string>
+    <string name="map_screen">Map of campus</string>
+    <string name="restaurants_icon_title">Restaurants</string>
+    <string name="orders_icon_title">Orders</string>
+    <string name="order_history_icon_title">Order History</string>
+    <string name="settings_icon_title">Settings</string>
+    <string name="title_activity_restaurant_activity">restaurant_activity</string>
+    <string name="title_activity_orders">Orders</string>
+    <string name="home_icon_title"> Home </string>
+    <string name="the_buck_stop">The Buck Stop</string>
+    <string name="menu">Menu</string>
+    <string name="under_caf">Terrace Cafe &amp; Freshens</string>
+    <string name="tutus">Tutu\'s Cyber Cafe</string>
+    <string name="grill_master">Grill Master</string>
+    <string name="happy_place">Happy Place</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
